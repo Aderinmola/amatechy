@@ -1,0 +1,19 @@
+.card {
+    background: #e8467f;
+    color: #fff;
+    width: 18%;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-right: 4rem;
+}
+
+h2 {
+    border-bottom: 3px solid white;
+    padding-bottom: 1.4rem;
+}
+
+.card > p {
+    font-weight: light;
+    line-height: 1.8;
+    font-size: 18px;
+}

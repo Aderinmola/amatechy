@@ -1,0 +1,21 @@
+/* .test {
+    background: url('/src/img/gallery.webp') no-repeat 
+    center center/cover;
+    height: 100vh;
+    position: relative;
+} */
+
+/* .vjscvbjhd {
+    margin-right: 3rem;
+} */
+
+.each__gallery__image {
+    text-align: center;
+}
+
+.image__test {
+    border-radius: 0 50px 0 50px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 12rem;
+}

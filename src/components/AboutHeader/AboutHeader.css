@@ -1,0 +1,53 @@
+.menu-items > ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 0 1.5rem;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #e8467f;
+    /* text-decoration: none; */
+}
+.menu-items > ul > li:hover {
+    color: #5b0b27;
+}
+
+.about__us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7rem;
+    font-weight: bolder;
+}
+
+.vision__mission {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    margin-bottom: 2rem;
+}
+
+.new__vision, .new__mission {
+    width: 45%;
+}
+
+.new__vision > p, .new__mission > p {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.new__vision > h3, .new__mission > h3 {
+    text-align: center;
+}
+
+.initiative {
+    padding: 0 5rem;
+}
+
+.initiative > p {
+    font-size: 1.4rem;
+    font-weight: 300;
+}

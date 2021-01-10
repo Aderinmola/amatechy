@@ -1,0 +1,27 @@
+.gallery__section {
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background: #e8467f;
+    height: 20rem;
+    
+}
+
+.menu-items > ul {
+    display: flex;
+    list-style: none;
+}
+
+.gallery__home {
+    padding: 0 1.5rem;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+}
+
+section {
+    background: #000;
+    height: 20rem;
+}

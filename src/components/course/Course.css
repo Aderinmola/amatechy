@@ -1,0 +1,17 @@
+.course {
+    width: 200px;
+}
+
+.course__item {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 200px;
+}
+
+.course > p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+

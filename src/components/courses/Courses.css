@@ -1,0 +1,45 @@
+.courses__container {
+    background: url('../../img//courses.jpeg') no-repeat 
+    center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+.courses {
+    color: #fff;
+    position: absolute;
+    height: 100vh;
+    background: rgba(232, 70, 127, 0.8);
+    z-index: 99;
+    width: 100%;
+}
+.courses__top > h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.courses__available {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5rem;
+    margin: 3rem 0;
+}
+
+.courses__register {
+    width: fit-content;
+    background: #000;
+    color: #fff;
+    padding: 0.7rem 3rem;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 auto;
+}
+.courses:last-child {
+    height: 30vh;
+    bottom: 0;
+    background: rgba(0, 0, 0, .6);
+    padding-left: 5rem;
+    /* background: rgba(128, 0, 0, 1); */
+}
+

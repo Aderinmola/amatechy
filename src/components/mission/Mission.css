@@ -1,0 +1,21 @@
+.mission {
+    padding: 15rem 12rem 6rem 12rem;
+    background: black;
+    color: #fff;
+}
+
+.mission__content {
+    padding-bottom: 2rem;
+    border-bottom: 3px solid #e8467f;
+}
+
+.mission__content > p {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.primary__text {
+    color: #e8467f;
+}

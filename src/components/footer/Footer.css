@@ -1,0 +1,22 @@
+.courses {
+    color: #fff;
+    position: absolute;
+    height: 100vh;
+    background: rgba(232, 70, 127, 0.8);
+    z-index: 99;
+    width: 100%;
+}
+
+.courses__bottom {
+    display: flex;
+    align-items: center;
+}
+
+.footer__text {
+    margin-right: 9rem;
+}
+
+.footer__text > p {
+    font-size: 12px;
+    line-height: 0.5;
+}

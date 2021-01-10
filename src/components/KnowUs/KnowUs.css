@@ -1,0 +1,49 @@
+.know__us__container {
+    background:  #e8467f;
+    padding: 3rem 5rem;
+    color: #fff;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name__email, .message {
+    width: 48%;
+}
+
+.name__email > input, .message > input {
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    width: 100%;
+    border: 2px solid #fff;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.name__email > input:last-child {
+    margin-bottom: 0;
+}
+
+.message > input {
+    height: 100%;
+}
+
+.name__email > input::placeholder, .message > input::placeholder {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.know__us__contact  {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    padding: 2rem 5rem;
+}

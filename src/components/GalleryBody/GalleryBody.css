@@ -1,0 +1,25 @@
+.gallery__body__container {
+    margin-top: -4rem;
+    position: relative;
+}
+
+.gallery__row {
+    display: flex;
+    padding: 0 8rem;
+    margin-bottom: 1rem;
+}
+
+.each {
+    margin-right: 1rem;
+}
+
+.each:last-child {
+    margin-right: 0;
+}
+
+.gallery__footer {
+    /* position: absolute; */
+    /* bottom: -30rem;  */
+    /* background: red; */
+    top: 200rem;
+}
