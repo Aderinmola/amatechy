@@ -7,11 +7,12 @@
 
 .courses {
     color: #fff;
-    position: absolute;
-    height: 100vh;
+    /* position: absolute; */
+    /* height: 100vh; */
     background: rgba(232, 70, 127, 0.8);
     z-index: 99;
     width: 100%;
+    padding-bottom: 4rem;
 }
 .courses__top > h1 {
     text-align: center;
@@ -20,6 +21,7 @@
 
 .courses__available {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0 5rem;
     margin: 3rem 0;
@@ -36,9 +38,10 @@
     margin: 0 auto;
 }
 .courses:last-child {
-    height: 30vh;
+    /* height: 30vh; */
     bottom: 0;
     background: rgba(0, 0, 0, .6);
+    box-sizing: border-box;
     padding-left: 5rem;
     /* background: rgba(128, 0, 0, 1); */
 }

@@ -21,6 +21,19 @@
     width: 20%;
 }
 
+@media screen and (max-width: 1000px) {
+    .gallery__content {
+        flex-direction: column;
+    }       
+    .gallery__image {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .image__test {
+        height: 600px;
+    }
+}
+
 .gallery__image:last-child {
     margin-right: 0;
 }

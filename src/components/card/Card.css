@@ -5,6 +5,13 @@
     text-align: center;
     padding: 1rem 2rem;
     margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    /* .card {
+        width: 45%;
+    }        */
 }
 
 h2 {
@@ -17,3 +24,19 @@ h2 {
     line-height: 1.8;
     font-size: 18px;
 }
+
+/* Header Responsiveness */
+/* @media screen and (max-width: 845px) {
+    .card {
+        width: 10%;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 7%;
+        font-size: 8px;
+    }
+} */
+/* End of Header Responsiveness */

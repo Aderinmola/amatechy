@@ -1,16 +1,28 @@
 /* Header */
 header {
+    /* Sticky */
+    /* position: sticky;
+    top: 0;
+    z-index: 1; */
+    /* End Sticky */
     padding: 1rem 5rem;
     display: flex;
     justify-content: space-between;
     color: #e8467f;
 }
 
+@media screen and (max-width: 800px) {
+    header {
+        display: none;
+    }       
+}
+
 .header {
-    background: url('/src/img/header.jpg') no-repeat 
+    background: url('/src/img/header.png') no-repeat 
     center center/cover;
     height: 100vh;
     position: relative;
+    background-size: 95%;
 }
  /* Menu Items */
 .menu-items > ul {
@@ -46,11 +58,55 @@ li {
     border-radius: 30px 30px 30px 0;
 }
 
+@media screen and (max-width: 1100px) {
+    .donate {
+       display: none;
+    }       
+}
+
+.button__hide {
+    position: relative;
+    z-index: 99;
+    margin-left: 8rem;
+    background: #fff;
+    color: #111;
+}
+
+@media screen and (max-width: 1100px) {
+    .button__hide {
+       display: block;
+    }       
+}
+
+@media screen and (max-width: 500px) {
+    .button__hide {
+       width: 100%;
+    }
+}
+
+@media screen and (min-width: 1101px) {
+    .button__hide {
+       display: none;
+    }       
+}
+
 /* Card */
 .card1 {
     display: flex;
-    position: absolute;
+    flex-wrap: wrap;
     margin-left: 10rem;
-    /* top: 30rem; */
     bottom: -12rem;
+    position: absolute;
+}
+
+@media screen and (max-width: 700px) {
+    .card1 {
+       margin-left: 2rem;
+    }       
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 100%;
+    }       
 }

@@ -8,9 +8,11 @@ function Header() {
         <div>
             <div className="header">
                 <header>
+                    
                     <div className="logo">
                         <h1>Amatechy</h1>
                     </div>
+
                     <div className="menu-items">
                         <ul>
                             <Link to="/">
@@ -24,14 +26,18 @@ function Header() {
                             </Link>
                         </ul>
                     </div>
+
                 </header>
 
 
                 <button className="donate">Donate Now</button>
 
                 <div className="card1">
+
                     <Card title="Our Vision" body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente velit veniam deleniti nobis consequatur, optio omnis perspiciatis enim eaque in, doloribus at fugit ab eligendi beatae eos exercitationem nisi doloremque." />
+
                     <Card title="Our Mission" body="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente velit veniam deleniti nobis consequatur, optio omnis perspiciatis enim eaque in, doloribus at fugit ab eligendi beatae eos exercitationem nisi doloremque." />
+
                 </div>
     
             </div>

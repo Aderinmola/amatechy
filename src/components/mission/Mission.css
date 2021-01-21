@@ -4,6 +4,12 @@
     color: #fff;
 }
 
+@media screen and (max-width: 800px) {
+    .mission {
+        padding: 15rem 4rem 6rem 4rem;
+    }       
+}
+
 .mission__content {
     padding-bottom: 2rem;
     border-bottom: 3px solid #e8467f;
