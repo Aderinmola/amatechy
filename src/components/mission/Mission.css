@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 600px) {
     .mission {
+        /* padding: 15rem 2rem 6rem 2rem; */
         margin-top: 10rem;
     }       
 }
@@ -40,15 +41,39 @@
     }       
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 413px) {
     .mission {
         margin-top: 28rem;
+    }       
+}
+
+@media screen and (max-width: 380px) {
+    .mission {
+        margin-top: 32rem;
     }       
 }
 
 @media screen and (max-width: 359px) {
     .mission {
         margin-top: 34rem;
+    }       
+}
+
+@media screen and (max-width: 349px) {
+    .mission {
+        margin-top: 38rem;
+    }       
+}
+
+@media screen and (max-width: 337px) {
+    .mission {
+        margin-top: 42rem;
+    }       
+}
+
+@media screen and (max-width: 325px) {
+    .mission {
+        margin-top: 46rem;
     }       
 }
 
