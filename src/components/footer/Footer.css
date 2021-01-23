@@ -14,6 +14,10 @@
     .courses__bottom {
         display: block;
     }
+
+    .footer__text {
+        width: 100%;
+    }
 }
 
 .footer__text {
