@@ -1,7 +1,5 @@
 .courses {
     color: #fff;
-    /* position: absolute;
-    height: 100vh; */
     background: rgba(232, 70, 127, 0.8);
     z-index: 99;
     width: 100%;
@@ -10,7 +8,12 @@
 .courses__bottom {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+    .courses__bottom {
+        display: block;
+    }
 }
 
 .footer__text {

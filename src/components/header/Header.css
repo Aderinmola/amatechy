@@ -1,10 +1,6 @@
 /* Header */
 header {
     /* Sticky */
-    /* position: sticky;
-    top: 0;
-    z-index: 1; */
-    /* End Sticky */
     padding: 1rem 5rem;
     display: flex;
     justify-content: space-between;
@@ -39,7 +35,6 @@ li {
     font-weight: 700;
     cursor: pointer;
     color: #e8467f;
-    /* text-decoration: none; */
 }
 
 .menu-items > ul > li:hover {
