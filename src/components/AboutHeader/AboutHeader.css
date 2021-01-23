@@ -49,6 +49,7 @@ li {
 @media screen and (max-width: 700px) {
     .vision__mission {
        display: block;
+       padding: 0 3rem;
     }       
 
     .new__vision, .new__mission {
@@ -67,6 +68,12 @@ li {
 
 .initiative {
     padding: 0 5rem;
+}
+
+@media screen and (max-width: 700px) {
+    .initiative {
+        padding: 0 3rem;
+    }
 }
 
 .initiative > p {

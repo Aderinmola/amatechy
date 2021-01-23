@@ -4,6 +4,12 @@
     color: #fff;
 }
 
+@media screen and (max-width: 700px) {
+    .know__us__container {
+        padding: 3rem 3rem;
+    }
+}
+
 .inputs {
     display: flex;
     justify-content: space-between;
