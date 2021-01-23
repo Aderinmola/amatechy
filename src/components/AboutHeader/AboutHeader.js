@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import KnowUs from '../KnowUs/KnowUs'
 import './AboutHeader.css'
+import Hamburger from '../link/Hamburger'
 
 function AboutHeader() {
     return (
@@ -22,6 +23,7 @@ function AboutHeader() {
                         </ul>
                     </div>
                 </header>
+                <Hamburger />
 
                 <div className="about__us">
                     <h1>About Us</h1>
@@ -29,7 +31,7 @@ function AboutHeader() {
 
                 <div className="vision__mission">
                     <div className="new__vision">
-                        <h3>Our Bision</h3>
+                        <h3>Our Vision</h3>
                         <p>We are dedicated to make every woman realise their potentials in the technology world, building the technology confidence and goal in the female world and building quality technology life of women by keeping them with 21st century technology skills</p>
                     </div>
                     <div className="new__mission">

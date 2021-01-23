@@ -12,7 +12,7 @@ header {
 }
 
 @media screen and (max-width: 800px) {
-    header {
+    .menu-items {
         display: none;
     }       
 }
@@ -30,8 +30,11 @@ header {
     list-style: none;
 }
 
-li {
+.menu-items ul a {
     padding: 0 1.5rem;
+}
+
+li {
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
@@ -102,6 +105,12 @@ li {
 @media screen and (max-width: 700px) {
     .card1 {
        margin-left: 2rem;
+    }       
+}
+
+@media screen and (max-width: 600px) {
+    .card1 {
+       top: 30rem;
     }       
 }
 

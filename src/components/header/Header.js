@@ -2,6 +2,7 @@ import React from 'react'
 import Card from '../card/Card'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import Hamburger from '../link/Hamburger'
 
 function Header() {
     return (
@@ -28,6 +29,7 @@ function Header() {
                     </div>
 
                 </header>
+                <Hamburger />
 
 
                 <button className="donate">Donate Now</button>

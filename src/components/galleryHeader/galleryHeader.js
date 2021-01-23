@@ -2,6 +2,7 @@ import React from 'react'
 import './galleryHeader.css'
 import { Link } from 'react-router-dom'
 import GalleryBody from '../GalleryBody/GalleryBody'
+import Hamburger from '../link/Hamburger'
 
 function GalleryHeader() {
     return (
@@ -22,6 +23,7 @@ function GalleryHeader() {
                         </ul>
                     </div>
                 </header>
+                <Hamburger />
                 <section></section>
             </div>
             <GalleryBody />

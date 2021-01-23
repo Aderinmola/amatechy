@@ -23,6 +23,18 @@ li {
     font-weight: bolder;
 }
 
+@media screen and (max-width: 1100px) {
+    .about__us {
+       font-size: 4rem;
+    }       
+}
+
+@media screen and (max-width: 700px) {
+    .about__us {
+       font-size: 2rem;
+    }       
+}
+
 .vision__mission {
     display: flex;
     justify-content: space-between;
@@ -32,6 +44,16 @@ li {
 
 .new__vision, .new__mission {
     width: 45%;
+}
+
+@media screen and (max-width: 700px) {
+    .vision__mission {
+       display: block;
+    }       
+
+    .new__vision, .new__mission {
+        width: 100%;
+    }
 }
 
 .new__vision > p, .new__mission > p {

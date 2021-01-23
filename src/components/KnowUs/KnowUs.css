@@ -13,6 +13,21 @@
     width: 48%;
 }
 
+@media screen and (max-width: 700px) {
+    .inputs {
+        display: block;
+    }
+
+    .name__email {
+        margin-bottom: 1rem;
+    }
+
+    .name__email, .message {
+        width: 100%;
+    }
+}
+
+
 .name__email > input, .message > input {
     box-sizing: border-box;
     background: none;

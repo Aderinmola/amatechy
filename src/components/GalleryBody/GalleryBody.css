@@ -9,6 +9,18 @@
     margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 800px) {
+    .gallery__row {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery__row {
+        padding: 0 3rem;
+    }
+}
+
 .each {
     margin-right: 1rem;
 }

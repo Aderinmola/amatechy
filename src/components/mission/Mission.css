@@ -10,6 +10,36 @@
     }       
 }
 
+@media screen and (max-width: 600px) {
+    .mission {
+        margin-top: 10rem;
+    }       
+}
+
+@media screen and (max-width: 520px) {
+    .mission {
+        margin-top: 10rem;
+    }       
+}
+
+@media screen and (max-width: 480px) {
+    .mission {
+        margin-top: 20rem;
+    }       
+}
+
+@media screen and (max-width: 450px) {
+    .mission {
+        margin-top: 20rem;
+    }       
+}
+
+@media screen and (max-width: 420px) {
+    .mission {
+        margin-top: 24rem;
+    }       
+}
+
 .mission__content {
     padding-bottom: 2rem;
     border-bottom: 3px solid #e8467f;
