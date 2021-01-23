@@ -13,10 +13,11 @@
 @media screen and (max-width: 800px) {
     .courses__bottom {
         display: block;
+        padding-top: 1rem;
     }
 
     .footer__text {
-        width: 100%;
+        width: 90%;
     }
 }
 
