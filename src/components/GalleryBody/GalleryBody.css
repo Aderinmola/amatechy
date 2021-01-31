@@ -1,6 +1,9 @@
 .gallery__body__container {
     margin-top: -4rem;
     position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
 }
 
 .gallery__row {
